@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  
+<title>Air simulator</title>
+<meta charset='utf-8'/>
+     
+</head>
+<body>
+    <button id='Button1'>Новый файл</button> 
+    <label>Загрузить файл: <input type='file' id='selFile'></label> 
+    
+    <a href="javascript:void(0)" id="dlbtn"><button>Сохранить файл</button></a>
+    <input type="text" id="selName" name="kye" size="10" maxlength="15" value="simulator" />
+    <br>
+
+    <button style="height:30px" id='Button4'>Новый компонент</button>
+    <button style="height:30px" id='Button5'>Текст</button>
+    <button style="height:30px" id='Button6'>Удалить</button>
+    <button style="height:30px" id='Button7'>Переместить</button>
+    <button style="height:30px" id='Button8'>Силовая цепь</button>
+    <button style="height:30px" id='Button9'>Цепь управления</button> <br>
+    <button style="height:30px" id='Button10'>Пошаговый запуск</button>
+    <button style="height:30px" id='Button11'>Непрерывный запуск</button>
+    <button style="height:30px" id='Button12'>Изменить состояние</button> 
+    <button style="height:30px" id='Button19'>Возврат</button> <br>
+    <button style="height:30px" id='Button13'>Увеличить</button>
+    <button style="height:30px" id='Button14'>Уменьшить</button>
+    <button style="height:30px" id='Button15'>Влево</button>
+    <button style="height:30px" id='Button16'>Вправо</button>
+    <button style="height:30px" id='Button17'>Вверх</button>
+    <button style="height:30px" id='Button18'>Вниз</button>
+    
+    <button style="height:30px" id='Button20'>О программе</button>
+    <div id='placeForText'></div>
+<canvas id="myCanvas" width="900" height="900"
+style="background-color:#eee; border: 1px solid #ccc; margin:10px;">
+
+<script src="buttons.js"></script>
+<script src="myFunctions.js"></script>
+<script src="draw.js"></script> 
+<script src="newComponent.js"></script> 
+<script src="newCanal.js"></script>
+<script src="efface.js"></script>
+<script src="deplace.js"></script>
+<script src="move.js"></script>
+<script src="anime.js"></script>
+<script src="main.js"></script>
+<script src="drawNomer.js"></script>
+
+</body>
+</html>
